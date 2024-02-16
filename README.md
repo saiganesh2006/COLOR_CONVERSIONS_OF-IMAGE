@@ -134,7 +134,7 @@ cv2.destroyAllWindows()
 ### vii) HSV to RGB and BGR
 ```
 import cv2
-img = cv2.imread('dog.jpg')
+img = cv2.imread('sai.jpg')
 img = cv2.resize(img,(300,200))
 
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
@@ -181,7 +181,7 @@ cv2.destroyAllWindows()
 ### ix) Split and merge RGB Image
 ```
 import cv2
-img = cv2.imread('dog.jpg',1)
+img = cv2.imread('sai.jpg',1)
 img = cv2.resize(img,(300,200))
 
 R = img[:,:,2]
@@ -207,7 +207,7 @@ cv2.destroyAllWindows()
 ### x) Split and merge HSV Image
 ```
 import cv2
-img = cv2.imread("dog.jpg",1)
+img = cv2.imread("sai.jpg",1)
 img = cv2.resize(img,(300,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
